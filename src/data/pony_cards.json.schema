@@ -1,0 +1,157 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "aliases": {
+        "type": "array",
+        "items": {}
+      },
+      "faces": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "abilities": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "colors": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "flavor": {
+              "type": "string"
+            },
+            "home_limit": {
+              "type": "number"
+            },
+            "image": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "orientation": {
+              "type": "string"
+            },
+            "power": {
+              "type": "number"
+            },
+            "side": {
+              "type": "string"
+            },
+            "subtitle": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "traits": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "abilities",
+            "colors",
+            "flavor",
+            "home_limit",
+            "image",
+            "name",
+            "orientation",
+            "power",
+            "side",
+            "subtitle",
+            "title",
+            "traits",
+            "type"
+          ]
+        }
+      },
+      "formats": {
+        "type": "object",
+        "properties": {
+          "Adventure": {
+            "type": "string"
+          },
+          "Core": {
+            "type": "string"
+          },
+          "DE Block": {
+            "type": "string"
+          },
+          "EO Block": {
+            "type": "string"
+          },
+          "Harmony": {
+            "type": "string"
+          },
+          "LL Block": {
+            "type": "string"
+          },
+          "PR Block": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "Adventure",
+          "Core",
+          "DE Block",
+          "EO Block",
+          "Harmony",
+          "LL Block",
+          "PR Block"
+        ]
+      },
+      "id": {
+        "type": "number"
+      },
+      "number": {
+        "type": "string"
+      },
+      "rarity": {
+        "type": "string"
+      },
+      "set": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "code",
+          "name"
+        ]
+      },
+      "version": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "aliases",
+      "faces",
+      "formats",
+      "id",
+      "number",
+      "rarity",
+      "set",
+      "version"
+    ]
+  }
+}
